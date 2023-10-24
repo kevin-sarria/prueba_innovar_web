@@ -1,27 +1,33 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Prueba Tecnica InnovarWeb
 
-Currently, two official plugins are available:
+Este proyecto esta hecho en React + TypeScript y TailwindCSS. Se realizo este proyecto para revisar las habilidades tecnicas del postulante, principalmente como se desenvuelve en una tarea sencilla como lo seria hacer un routing de una aplicacion de React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Instalaciones
+Para instalar este proyecto necesitas el empaquetador de yarn, puedes descargarlo en el siguiente link:
+ - [Guia de instalacion para Yarn](https://classic.yarnpkg.com/lang/en/docs/install/)
+## Ejecutar en Local
 
-## Expanding the ESLint configuration
+Clonar el proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+  git clone https://github.com/kevin-sarria/prueba_innovar_web
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Ir al directorio donde clonamos el proyecto
+
+```bash
+  cd ./prueba_innovar_web
+```
+
+Instalar Dependencias
+
+```bash
+  yarn install
+```
+
+Iniciarlizar el servidor
+
+```bash
+  yarn dev
+```
